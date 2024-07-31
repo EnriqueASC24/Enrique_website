@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retirement Calculator</title>
+    <link rel="stylesheet" href="style_general.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">About Me</a>
+        <a href="Knowledge.html">Knowledge</a>
+        <a href="Volunteering.html">Volunteering</a>
+        <a href="Work_exp.html">Work Experience</a>
+        <a href="aspiration.html">Aspiration</a>
+        <a href="Retirement.html">Retirement Calculator</a>
+    </nav>
+    <br><br><br><br><br><br>
+    <div class="screen">
+        <div class="Words">
+            <div class="calculator">
+                <h2>Retirement Calculator</h2>
+                <form id="calculatorForm">
+                    <label for="num1">Min spent on food:</label>
+                    <input type="number" id="num1" required><br><br>
+                    
+                    <label for="num2">Max spent on food:</label>
+                    <input type="number" id="num2" required><br><br>
+
+                    <label for="num5">Times eating per day:</label>
+                    <input type="number" id="num5" required><br><br>
+
+                    <label for="num3">Monthly Payments(optional):</label>
+                    <input type="number" id="num3" required><br><br>
+
+                    <label for="num4">Years:</label>
+                    <input type="number" id="num4" required><br><br>
+                        
+                    <button type="button" onclick="calculate()">Calculate</button>
+                </form>
+            
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="Retirement_cal.js"></script>
+</body>
+</html>
